@@ -5,5 +5,5 @@ import{a as d,i as p,S as h}from"./assets/vendor-2507e9f0.js";(function(){const 
         <p>${i}</p>
         <p><b>Temperament:</b> ${c}</p>
       </div>
-  `,n(a,!0)}function v(t){new h({select:u,settings:{placeholderText:"Search breed"},data:[{placeholder:!0,text:""},...t],events:{afterChange:r=>{var i;return y((i=r[0])==null?void 0:i.value)}}}),n(u,!0)}function b(){m().then(t=>{v(t.map(({id:r,name:i})=>({text:i,value:r})))}).catch(f).finally(()=>{n(l,!1)})}b();
+  `,n(a,!0)}function v(t){n(u,!0),new h({select:u,settings:{placeholderText:"Search breed"},data:[{placeholder:!0,text:""},...t],events:{afterChange:r=>{var i;return y((i=r[0])==null?void 0:i.value)}}})}function b(){m().then(t=>{v(t.map(({id:r,name:i})=>({text:i,value:r})))}).catch(f).finally(()=>{n(l,!1)})}b();
 //# sourceMappingURL=commonHelpers.js.map
